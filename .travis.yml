@@ -1,0 +1,27 @@
+sudo: false
+language: node_js
+node_js:
+  - "12"
+
+branches:
+  only:
+    - sources
+
+before_script:
+  - rm -rf public
+
+script:
+  - npm install
+  - hexo cl
+  - hexo g
+
+deploy:
+  local-dir: public
+  provider: pages
+  skip-cleanup: true
+  target-branch: master
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  on:
+    branch: sources 
+
