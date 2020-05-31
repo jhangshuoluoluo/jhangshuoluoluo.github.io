@@ -13,6 +13,7 @@ tags: DeepLearning
 日子中，到處都可以聽到**深度學習**的技術又在某一個領域得到重大的突破，但**深度學
 習**這個看似很新潮又很酷的東西是什麼玩意呢？它到底又厲害在哪裡呢？為什麼能夠短時
 間席捲好多領域？
+<!--more-->
 ## what is deep learning ?
 <center><img src="https://i.imgur.com/8GkS081.png" width="60%"></center><br>
 

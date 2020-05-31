@@ -106,7 +106,7 @@ article:
         # Show copy code button
         clipboard: true
         # Default folding status of the code blocks. Can be "", "folded", "unfolded"
-        fold: unfolded
+        fold: folded
     # Whether to show thumbnail image for every article
     thumbnail: true
     # Whether to show estimated article reading time
@@ -177,11 +177,11 @@ widgets:
         position: left
         type: profile
         # Author name
-        author: Your name
+        author: Jason Luo
         # Author title
-        author_title: Your title
+        author_title: Taiwanese, but live in Japan now
         # Author's current location
-        location: Your location
+        location: Chiba, Japan
         # URL or path to the avatar image
         avatar: 
         # Whether show the rounded avatar image
@@ -189,21 +189,24 @@ widgets:
         # Email address for the Gravatar
         gravatar: 
         # URL or path for the follow button
-        follow_link: 'https://github.com/ppoffice'
+        follow_link: 'https://github.com/jhangshuoshuoluo/'
         # Links to be shown on the bottom of the profile widget
         social_links:
             Github:
                 icon: fab fa-github
-                url: 'https://github.com/ppoffice'
+                url: 'https://github.com/jhangshuoluoluo/'
             Facebook:
                 icon: fab fa-facebook
-                url: 'https://facebook.com'
+                url: 'https://www.facebook.com/zhangshuo.luo'
             Twitter:
                 icon: fab fa-twitter
-                url: 'https://twitter.com'
-            Dribbble:
-                icon: fab fa-dribbble
-                url: 'https://dribbble.com'
+                url: 'https://twitter.com/JasonLu32059153'
+            Instagram:
+                icon: fab fa-instagram
+                url: 'https://www.instagram.com/jasonluo0201/'
+            Codepen:
+                icon: fab fa-codepen
+                url: 'https://codepen.io/jasonluo/'
             RSS:
                 icon: fas fa-rss
                 url: /
@@ -219,7 +222,7 @@ widgets:
         type: links
         # Names and URLs of the sites
         links:
-            Hexo: 'https://hexo.io'
+            Google: 'https://www.google.com'
             Bulma: 'https://bulma.io'
     # Categories widget configurations
     -
@@ -229,12 +232,12 @@ widgets:
     # Recent posts widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
+        position: right
         type: recent_posts
     # Archives widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
+        position: right
         type: archives
     # Tags widget configurations
     -
@@ -251,14 +254,14 @@ widgets:
         # Feedburner ID
         feedburner_id: ''
     # Google AdSense unit configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: adsense
-        # AdSense client ID
-        client_id: ''
-        # AdSense AD unit ID
-        slot_id: ''
+    #-
+    #    # Where should the widget be placed, left sidebar or right sidebar
+    #    position: left
+    #    type: adsense
+    #    # AdSense client ID
+    #    client_id: ''
+    #    # AdSense AD unit ID
+    #    slot_id: ''
 # Plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/
 plugins:
