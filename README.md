@@ -4,7 +4,7 @@ Master:
 [![Travis](https://img.shields.io/travis/jhangshuoluoluo/jhangshuoluoluo.github.io.svg)](https://travis-ci.org/jhangshuoluoluo/jhangshuoluoluo.github.io)
 
 Branch:
-[![Build Status](https://travis-ci.org/jhangshuoluoluo/jhangshuoluoluo.github.io.svg?branch=source_blog)](https://travis-ci.org/jhangshuoluoluo/jhangshuoluoluo.github.io)
+[![Build Status](https://travis-ci.org/jhangshuoluoluo/jhangshuoluoluo.github.io.svg?branch=sources)](https://travis-ci.org/jhangshuoluoluo/jhangshuoluoluo.github.io)
 
 This repository is used to launch my [web page](http://jasonluo.tw) with
 - Hexo
