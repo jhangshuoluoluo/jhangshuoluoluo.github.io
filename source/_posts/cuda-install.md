@@ -17,6 +17,8 @@ tags:
 因為deep learning的套件更新速度很快，有時更新DL套件後相對應的cuda, nvidia driver也需要重新安裝，因此在這邊紀錄一下如何install, uninstall這些東西
 </font>
 
+<!--more-->
+
 ## Nvidia Driver
 ### 安裝之前
 1. 首先，檢查顯卡是否可用```lspci -nnk | grep -i nvidia```，應出現下面這些
@@ -78,7 +80,8 @@ tags:
 3. 移除舊版cuda，下面選一種(確保沒有/usr/local/cuda-XX.X資料夾)
     - `sudo apt-get --purge remove 'cuda*'` 
     - `sudo apt-get autoremove --purge cuda`
-    - `sudo /usr/local/cuda-10.2/bin/cuda-uninstaller` [官網上寫的](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#runfile-uninstallation)，cuda-10.2換成自己的版本
+    - `sudo /usr/local/cuda-10.2/bin/cuda-uninstaller` 
+      [官網上寫的](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#runfile-uninstallation)，cuda-10.2換成自己的版本
 
 ### 安裝Cuda
 4. 開始安裝Cuda (記得先用chmod +x讓檔案可以執行，前面兩種不適用跑_linux檔的)
@@ -170,5 +173,3 @@ Ref:
 - [安裝步驟](https://medium.com/@zihansyu/ubuntu-16-04-%E5%AE%89%E8%A3%9Dcuda-10-0-cudnn-7-3-8254cb642e70?fbclid=IwAR1ZTYfdlyH5NSSrGNEjo9NyKZibqZaazey6lGcr6a0mxgiJYowVouJNVbk)
 - [TensorRT](https://zhuanlan.zhihu.com/p/85365075)
 
-    ```
-```
