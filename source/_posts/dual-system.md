@@ -1,7 +1,11 @@
 ---
 title: dual_system
 date: 2020-05-31 16:08:53
-tags: system
+categories:
+- Computer System
+tags: 
+- tech
+- system
 ---
 # 灌雙系統(win10 + ubuntu 16.04.3 LTS)
 &emsp;有時候需要linux Terminal帶來的便利性，像是linux作業系統上開發軟體或寫程式>比較便利，而windows上有好用的Microsoft軟體以及打電動，因此當電腦配備允許的話會想

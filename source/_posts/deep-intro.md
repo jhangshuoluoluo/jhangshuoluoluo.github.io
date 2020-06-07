@@ -1,7 +1,11 @@
 ---
 title: deep-intro
 date: 2020-05-31 16:09:59
-tags: DeepLearning
+categories:
+- AI
+tags: 
+- tech
+- DeepLearning
 ---
 淺談正夯的深度學習
 ===
