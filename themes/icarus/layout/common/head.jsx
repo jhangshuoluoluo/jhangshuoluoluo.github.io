@@ -77,7 +77,7 @@ module.exports = class extends Component {
                 images.push(img[1]);
             }
         } else {
-            images = [url_for('/img/og_image.png')];
+            images = [url_for('/img/beach.svg')];
         }
 
         let adsenseClientId = null;

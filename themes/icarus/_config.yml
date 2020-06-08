@@ -28,10 +28,10 @@ head:
         site_name: 
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
-        author: 
+        author: JasonLuo
         # Page description (og:description) (optional)
         # You should leave this blank for most of the time
-        description: 
+        description: This web page is a blog 
         # Twitter card type (twitter:card)
         twitter_card: 
         # Twitter ID (twitter:creator)
@@ -58,7 +58,7 @@ head:
         url: 
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
-        author: 
+        author: JasonLuo 
         # Page images (optional)
         # You should leave this blank for most of the time
         image: 
