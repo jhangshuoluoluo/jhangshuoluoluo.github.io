@@ -16,7 +16,7 @@ head:
         title: 
         # Page type (og:type) (optional)
         # You should leave this blank for most of the time
-        type: blog
+        type: website
         # Page URL (og:url) (optional)
         # You should leave this blank for most of the time
         url: 
