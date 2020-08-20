@@ -180,7 +180,7 @@ widgets:
         # Author's current location
         location: Chiba, Japan
         # URL or path to the avatar image
-        avatar: /img/My.jpeg 
+        avatar: /img/My2.jpg 
         # Whether show the rounded avatar image
         avatar_rounded: true
         # Email address for the Gravatar
